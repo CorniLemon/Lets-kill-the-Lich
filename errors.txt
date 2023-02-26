@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 284: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    menu:
+    ^
+
+File "game/script.rpy", line 478: expected ':' not found.
+    label pobegLicha 
+                     ^
+
+File "game/script.rpy", line 489: expected ':' not found.
+    label findLIFE
+                  ^
+
+Ren'Py Version: Ren'Py 7.5.1.22070801
+Fri Oct 28 15:48:15 2022

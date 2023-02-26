@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 460, in script
+    L1 "добрый день, чем могу быть полезен?"
+Exception: Sayer 'L1' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 460, in script
+    L1 "добрый день, чем могу быть полезен?"
+  File "renpy/ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'L1' is not defined.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 7.5.1.22070801
+Lets kill the Lich! 0.1 WIP
+Thu Oct 27 17:32:33 2022
